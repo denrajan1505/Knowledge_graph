@@ -1,0 +1,40 @@
+# Environment variables - NEVER commit this
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# One-time debug/fix scripts
+debug_kg.py
+fix_kg.py
+fix_import.py
+check_file.py
+
+# Old/duplicate files
+demo.py
+demo1.py
+knowledge_graph.py
+
+# Generated outputs
+comparison_metrics.png
+knowledge_graph.html
+*.png
+*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
